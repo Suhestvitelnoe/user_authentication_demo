@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `users` (
+  `userid` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(36) NOT NULL,
+  `pswd` VARCHAR(255) NOT NULL,
+  PRIMARY KEY(`userid`)
+);
